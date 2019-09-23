@@ -19,7 +19,7 @@ def run_command():
     url = JIRA
 
     if issue == "my":
-        url = url + "/secure/RapidBoard.jspa?rapidView=68&projectKey=SGN&assignee=5ba892e01c4dd76faa1392d5"
+        url = url + "/secure/RapidBoard.jspa?rapidView=68\&projectKey=SGN\&assignee=5ba892e01c4dd76faa1392d5"
     elif issue == "board":
         url = url + "/secure/RapidBoard.jspa?rapidView=68&projectKey=SGN"
     else:
