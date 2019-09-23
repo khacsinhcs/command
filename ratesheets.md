@@ -25,6 +25,7 @@ Some lender publish rate and adj for each state
 * Hard to proven that quote engine is correct
 
 ## Requirement:
+* Manage mutipal format
 * Handle format change quickly
-* 
+* Provide the way to define meta data to ratesheet. Easy to share with non-tech people
 ### 
