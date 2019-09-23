@@ -1,5 +1,6 @@
 import cmd
 import sys
+import git_util
 
 JENKINS = "http://jenkins.dev.idnow.de/"
 
@@ -9,6 +10,10 @@ def open_jenkins(path):
 
 
 def release(part):
+    print("  BranchOrTag: " + git_util.get_current_branch())
+    ticket = git_util.get_ticket_number()
+    if ticket is not None:
+        print("   TagVersion: " + ticket.lower() + '-rc.')
     if part == "ai":
         open_jenkins("view/AutomatedProduct/job/Automated%20Product%20Release/build")
     else:
