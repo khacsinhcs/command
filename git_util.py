@@ -22,3 +22,28 @@ def get_ticket_number():
         if x is None:
             return None
         return branch[x.start():x.end()]
+
+
+def build_branches(comand):
+    branches = cmd.run_command(comand).split("\n")
+    result = []
+    for branch in branches:
+        trim = branch.strip()
+        if len(trim) != 0:
+            result.append(trim)
+
+    return result
+
+
+def find_branches(pattern):
+    return build_branches("git branch | grep " + pattern)
+
+
+def find_in_remote(pattern):
+    return build_branches("git branch -a | grep " + pattern)
+
+
+def checkout(branch):
+    cmd.run_command("git checkout " + branch)
+
+

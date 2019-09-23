@@ -1,4 +1,5 @@
 export CMD_HOME="~/command"
 
 alias jira="python $CMD_HOME/jira.py"
-alias branch="python $CMD_HOME/branch.py"
+alias nbranch="python $CMD_HOME/nbranch.py"
+alias sbranch="python $CMD_HOME/sbranch.py"
