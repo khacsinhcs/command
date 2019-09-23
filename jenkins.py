@@ -10,7 +10,9 @@ def open_jenkins(path):
 
 
 def release(part):
-    print("  BranchOrTag: " + git_util.get_current_branch())
+    branch = git_util.get_current_branch()
+    print("  BranchOrTag: " + branch)
+    cmd.copy2clip(branch)
     ticket = git_util.get_ticket_number()
     if ticket is not None:
         print("   TagVersion: " + ticket.lower() + '-rc.')
