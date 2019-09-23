@@ -56,3 +56,24 @@ With body with json parrams have these attributes:
 * purpose: Refinance/Purchase Mortgage/Cash-out
 * zipcode: property zipcode
 
+Return result is a list of:
+adjusted_cost: 10740
+adjusted_price: 3.58
+* adjustment: 0.125
+apr: 3.353
+* base_price: 3.455
+category: 0
+cost_after_broker_comp: 15240
+created: 1566851723979
+group: 1
+interest_rate: 2.875
+key: "ag1zfmxlbmRlci1yYXRlcgwLEgRSYXRlGO-EPQw"
+kind: "Rate"
+loan_program: "25-Yr Fixed"
+loan_type: 0
+mortgage_insurance: 0
+p_and_i: 1403.2062208051059
+payment: 1403.21
+price_after_broker_comp: 5.08
+today_rate_sheet_url: "http://storage.googleapis.com/lender-rate-ratesheet/Caliber.pdf"
+total_cost: 15240
