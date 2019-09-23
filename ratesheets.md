@@ -21,8 +21,8 @@ Some lender publish rate and adj for each state
 * Lender has many rates
 * Rate can be apply many adj base on user profile
 --> easy to hit perf issue
-#### Hard to test
-* Hard to proven that quote engine correct
+#### Verify
+* Hard to proven that quote engine is correct
 
 ## Requirement:
 * Handle format change quickly
