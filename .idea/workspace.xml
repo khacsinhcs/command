@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1174959d-7eb1-42c5-bfc1-a0c4512aa55a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jenkins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignored" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+    <list id="5e45fd80-a8fa-466e-8fe3-476746d656bd" name="ignored" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,40 +25,44 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="alias" value="1" />
-          <entry key="py" value="6" />
+          <entry key="gitignored" value="1" />
+          <entry key="py" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="6" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="alias" value="111" />
+          <entry key="alias" value="181" />
           <entry key="dummy" value="3" />
-          <entry key="py" value="2422" />
-          <entry key="txt" value="64" />
+          <entry key="gitignored" value="10" />
+          <entry key="py" value="4371" />
+          <entry key="txt" value="238" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="178" />
-          <entry key="Python" value="2422" />
+          <entry key="PLAIN_TEXT" value="432" />
+          <entry key="Python" value="4371" />
         </counts>
       </usages-collector>
     </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="command" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jira.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="-128">
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
                 <element signature="e#135#348#0" />
               </folding>
             </state>
@@ -67,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/nbranch.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -78,8 +84,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            <state relative-caret-position="92">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,15 +96,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/git_util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="743">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="1081">
+              <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1569245329578" expanded="true" signature="48:53" ph="..." />
-                <marker date="1569245329578" expanded="true" signature="574:780" ph="..." />
-                <marker date="1569245329578" expanded="true" signature="807:808" ph="..." />
-                <marker date="1569245329578" expanded="true" signature="896:960" ph="..." />
-                <marker date="1569245329578" expanded="true" signature="981:986" ph="..." />
+                <marker date="1569282716988" expanded="true" signature="48:53" ph="..." />
+                <marker date="1569282716988" expanded="true" signature="574:780" ph="..." />
+                <marker date="1569282716988" expanded="true" signature="807:808" ph="..." />
+                <marker date="1569282716988" expanded="true" signature="896:960" ph="..." />
+                <marker date="1569282716988" expanded="true" signature="1102:1107" ph="..." />
               </folding>
             </state>
           </provider>
@@ -104,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alias">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="161">
+              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -113,23 +122,65 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sbranch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="554">
+              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1569245760781" expanded="true" signature="54:59" ph="..." />
+                <marker date="1569282451793" expanded="true" signature="54:59" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jenkins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="801">
+              <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+                <marker date="1569286346596" expanded="true" signature="105:110" ph="..." />
+                <marker date="1569286346596" expanded="true" signature="600:763" ph="..." />
+                <marker date="1569286346596" expanded="true" signature="779:1020" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jenkins.py">
+        <entry file="file://$PROJECT_DIR$/.gitignored">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" selection-end-column="10" />
               <folding>
-                <marker date="1569245898013" expanded="true" signature="77:82" ph="..." />
+                <element signature="e#0#10#0" expanded="true" />
+                <marker date="1569256283854" expanded="true" signature="512:513" ph="..." />
+                <marker date="1569256283854" expanded="true" signature="585:586" ph="..." />
+                <marker date="1569256283854" expanded="true" signature="788:793" ph="..." />
+                <marker date="1569256283854" expanded="true" signature="1091:1282" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1569257253461" expanded="true" signature="183:418" ph="..." />
+                <marker date="1569257253461" expanded="true" signature="440:445" ph="..." />
               </folding>
             </state>
           </provider>
@@ -150,14 +201,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cmd.py" />
         <option value="$PROJECT_DIR$/branch.py" />
-        <option value="$PROJECT_DIR$/jira.py" />
         <option value="$PROJECT_DIR$/nbranch.py" />
+        <option value="$PROJECT_DIR$/jira.py" />
+        <option value="$PROJECT_DIR$/log.py" />
+        <option value="$PROJECT_DIR$/services.py" />
         <option value="$PROJECT_DIR$/alias" />
-        <option value="$PROJECT_DIR$/git_util.py" />
+        <option value="$PROJECT_DIR$/cmd.py" />
         <option value="$PROJECT_DIR$/sbranch.py" />
+        <option value="$PROJECT_DIR$/git_util.py" />
         <option value="$PROJECT_DIR$/jenkins.py" />
+        <option value="$PROJECT_DIR$/.gitignored" />
       </list>
     </option>
   </component>
@@ -168,9 +222,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -215,6 +268,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1174959d-7eb1-42c5-bfc1-a0c4512aa55a" name="Default Changelist" comment="" />
+      <changelist id="5e45fd80-a8fa-466e-8fe3-476746d656bd" name="ignored" comment="" />
       <created>1569227374137</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -241,16 +295,58 @@
       <option name="project" value="LOCAL" />
       <updated>1569245786362</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add jenkins job">
+      <created>1569254636200</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1569254636200</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add log">
+      <created>1569256377813</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569256377813</updated>
+    </task>
+    <task id="LOCAL-00006" summary="start service by command">
+      <created>1569257326211</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1569257326211</updated>
+    </task>
+    <task id="LOCAL-00007" summary="print log">
+      <created>1569258530404</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1569258530404</updated>
+    </task>
+    <task id="LOCAL-00008" summary="copy to branch clipboard">
+      <created>1569258931979</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1569258931979</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update jenkins job + improve sbranch">
+      <created>1569292574469</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1569292574469</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3390558" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858758" visible="true" weight="0.25239617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.50141245" side_tool="true" visible="true" weight="0.25239617" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -259,10 +355,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.2678387" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.386277" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.386277" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -283,77 +379,121 @@
     <MESSAGE value="finish jira" />
     <MESSAGE value="create branch by command" />
     <MESSAGE value="add sbran and nbran" />
-    <option name="LAST_COMMIT_MESSAGE" value="add sbran and nbran" />
+    <MESSAGE value="add jenkins job" />
+    <MESSAGE value="add log" />
+    <MESSAGE value="start service by command" />
+    <MESSAGE value="print log" />
+    <MESSAGE value="copy to branch clipboard" />
+    <MESSAGE value="update jenkins job + improve sbranch" />
+    <option name="LAST_COMMIT_MESSAGE" value="update jenkins job + improve sbranch" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cmd.py">
+    <entry file="file://$PROJECT_DIR$/nbranch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jira.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="-128">
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#135#348#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="10" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#135#348#0" />
+            <marker date="1569256283854" expanded="true" signature="512:513" ph="..." />
+            <marker date="1569256283854" expanded="true" signature="585:586" ph="..." />
+            <marker date="1569256283854" expanded="true" signature="788:793" ph="..." />
+            <marker date="1569256283854" expanded="true" signature="1091:1282" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1569257253461" expanded="true" signature="183:418" ph="..." />
+            <marker date="1569257253461" expanded="true" signature="440:445" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/alias">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="161">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/git_util.py">
+    <entry file="file://$PROJECT_DIR$/cmd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1569245329578" expanded="true" signature="48:53" ph="..." />
-            <marker date="1569245329578" expanded="true" signature="574:780" ph="..." />
-            <marker date="1569245329578" expanded="true" signature="807:808" ph="..." />
-            <marker date="1569245329578" expanded="true" signature="896:960" ph="..." />
-            <marker date="1569245329578" expanded="true" signature="981:986" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nbranch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#17#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sbranch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="554">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1569245760781" expanded="true" signature="54:59" ph="..." />
+            <marker date="1569282451793" expanded="true" signature="54:59" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/git_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1081">
+          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1569282716988" expanded="true" signature="48:53" ph="..." />
+            <marker date="1569282716988" expanded="true" signature="574:780" ph="..." />
+            <marker date="1569282716988" expanded="true" signature="807:808" ph="..." />
+            <marker date="1569282716988" expanded="true" signature="896:960" ph="..." />
+            <marker date="1569282716988" expanded="true" signature="1102:1107" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jenkins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        <state relative-caret-position="801">
+          <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
           <folding>
-            <marker date="1569245898013" expanded="true" signature="77:82" ph="..." />
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1569286346596" expanded="true" signature="105:110" ph="..." />
+            <marker date="1569286346596" expanded="true" signature="600:763" ph="..." />
+            <marker date="1569286346596" expanded="true" signature="779:1020" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignored">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
