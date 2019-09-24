@@ -44,6 +44,9 @@ def find_in_remote(pattern):
 
 
 def checkout(branch):
-    cmd.run_command("git checkout " + branch)
+    if 'remotes/origin/' in branch:
+        cmd.run_command('git checkout ' + branch[len('remotes/origin/'):])
+    else:
+        cmd.run_command("git checkout " + branch)
 
 

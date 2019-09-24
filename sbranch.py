@@ -20,8 +20,14 @@ def switch_branch(input):
 
 
 def show_branches(branches):
+    i = 1
     for branch in branches:
-        print("* " + branch)
+        print("* [" + str(i) + '] ' + branch)
+        i = i + 1
+
+    index = input("Which do you want: ")
+    git_util.checkout(branches[int(index) - 1])
+    exit()
 
 
 switch_branch(sys.argv[1:])
