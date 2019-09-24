@@ -50,3 +50,5 @@ def checkout(branch):
         cmd.run_command("git checkout " + branch)
 
 
+def delete_branch(branch):
+    cmd.run_command('git branch -D ' + branch)
