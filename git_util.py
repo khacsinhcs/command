@@ -52,3 +52,11 @@ def checkout(branch):
 
 def delete_branch(branch):
     cmd.run_command('git branch -D ' + branch)
+
+
+def get_repo_name():
+    name = cmd.run_command('basename $(git remote get-url origin)')
+    if '.git' in name:
+        return name[0:len(name) - 5]
+    else:
+        return name

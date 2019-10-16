@@ -17,14 +17,14 @@ def release(part):
     if ticket is not None:
         print("   TagVersion: " + ticket.lower() + '-rc.')
     if part == "ai":
-        open_jenkins("view/AutomatedProduct/job/Automated%20Product%20Release/build")
+        open_jenkins("view/AutomatedProduct/job/Release%20Automated%20Product/build")
     else:
         open_jenkins("view/Releases/job/Release/build")
 
 
 def deploy(part):
     if part == "ai":
-        open_jenkins("view/AutomatedProduct/job/DEPLOY_TPP_DEV2/build")
+        open_jenkins("view/AutomatedProduct/job/Deploy%20Automated%20Product%20Dev2/build")
     else:
         open_jenkins("view/DEV/job/Deploy%20Dev2/build")
 
